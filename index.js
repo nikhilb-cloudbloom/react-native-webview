@@ -1,4 +1,4 @@
-import WebView from './lib/WebView';
+import WebView as WebViewApplePay from './lib/WebView';
 
-export { WebView };
-export default WebView;
+export { WebViewApplePay };
+export default WebViewApplePay;
