@@ -6,14 +6,14 @@
  */
 
 #import <Foundation/Foundation.h>
-#import "RNCWKProcessPoolManager.h"
+#import "RNCWKProcessPoolManagerApplePay.h"
 
-@interface RNCWKProcessPoolManager() {
+@interface RNCWKProcessPoolManagerApplePay() {
     WKProcessPool *_sharedProcessPool;
 }
 @end
 
-@implementation RNCWKProcessPoolManager
+@implementation RNCWKProcessPoolManagerApplePay
 
 + (id) sharedManager {
     static RNCWKProcessPoolManager *_sharedManager = nil;
